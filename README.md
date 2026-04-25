@@ -36,7 +36,11 @@ Changing the admin password persists in browser storage.
 All data is stored locally in `localStorage` under:
 
 ```txt
-oc-archive-local-prototype-v1
+oc-archive-local-prototype-v5
 ```
 
 The Admin Dashboard includes a local demo reset button.
+
+## Supabase
+
+The Settings page includes a Supabase connection panel. The publishable key is prefilled, and the project URL can be added there, then tested with the connection button.
